@@ -49,6 +49,7 @@ public class CheckAdvice
 	@Test
 	public void testEquals()
 	{
+		// for trsting equalation
 		Advice ad1 = new Advice(new CheckNoBreak(), Range.make(0, 0, 10), "message", "resource", "line", 0);
 		Advice ad2 = new Advice(new CheckNoBreak(), Range.make(1, 0, 10), "message", "resource", "line", 0);
 		Advice ad3 = new Advice(new CheckStackedHeadings(), Range.make(0, 0, 10), "message", "resource", "line", 0);
